@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorBackGroundSpinner">#FFEEEE</color>
+    <color name="colorMain">#8058B4</color>
+    <color name="colorBG_found">#fbfffd</color>
+    <color name="colorBG_search">#f0f0ff</color>
+    <color name="colorBG_range_dialog">#3a7cf0</color>
+    <color name="colorBG_comboBox_main">#fff0f0</color>
+
+</resources>

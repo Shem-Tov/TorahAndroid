@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TorahAndroid</string>
+    <string name="label_search">חיפוש</string>
+    <string name="label_search_2">חיפוש שני</string>
+    <string name="label_dilug_min">דילוג מינימום</string>
+    <string name="label_dilug_max">דילוג מקסימום</string>
+    <string name="label_dilug_padding">מספר אותיות</string>
+    <string name="hint_enter_number">הכנס מספר</string>
+    <string name="hint_enter_string">מחרוזת חיפוש</string>
+    <string name="label_letters_word">חיפוש במילה</string>
+    <string name="label_letters_pasuk">חיפוש בפסוק</string>
+    <string name="label_index_number">מספר אינדקס</string>
+    <string name="toast_error_load_file">לא הצליח לטעון קובץ</string>
+</resources>

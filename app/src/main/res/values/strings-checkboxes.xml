@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="checkbox_sofiot">חישוב מיוחד לסופיות</string>
+    <string name="checkbox_whole_word">מילים שלמות</string>
+    <string name="checkbox_dilug_reverse">חיפוש דילוג הפוך</string>
+    <string name="checkbox_range_all">הכול</string>
+    <string name="checkbox_count_matches">ספירת מציאות</string>
+    <string name="checkbox_multi_search">חיפוש יותר ממילה אחת</string>
+    <string name="checkbox_letters_order_1">שמור סדר אותיות</string>
+    <string name="checkbox_letters_order_2">שמור סדר אותיות 2</string>
+    <string name="checkbox_letters_first_1">שמור על תיבה ראשית 1</string>
+    <string name="checkbox_letters_first_2">שמור על תיבה ראשית 2</string>
+    <string name="checkbox_letters_last_1">שמור על תיבה סופית 1</string>
+    <string name="checkbox_letters_last_2">שמור על תיבה סופית 2</string>
+    <string name="checkbox_letters_pasuk_exact_space">חיפוש רווחים מדויק</string>
+    <string name="checkbox_sofiot_2">חישוב מיוחד לסופיות 2</string>
+    <string name="checkbox_print_marks">להוסיף סימונים</string>
+
+</resources>

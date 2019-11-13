@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_spinner_main">
+        <item>חיפוש רגיל</item>
+        <item>חיפוש גימטריה</item>
+        <item>חישוב גימטריה</item>
+        <item>חיפוש בדילוגים</item>
+        <item>חיפוש אותיות</item>
+        <item>חיפוש אינדקס</item>
+        <item>הדפסת התורה</item>
+        <item>דוח ספירה</item>
+    </string-array>
+    <string-array name="array_spinner_search_input">
+        <item>תורה</item>
+        <item>חיפוש קודם</item>
+        <item>קובץ משתמש</item>
+    </string-array>
+    <string-array name="array_spinner_dilug">
+        <item>רגיל</item>
+        <item>ראש פסוק</item>
+        <item>סוף פסוק</item>
+        <item>ראש מילה</item>
+        <item>סוף מילה</item>
+    </string-array>
+    <string-array name="array_spinner_search">
+        <item>חובת שתי מילים</item>
+        <item>מספיק מילה אחת</item>
+    </string-array>
+    <string-array name="array_spinner_letters">
+        <item>מילים - יחיד</item>
+        <item>מילים - רבים</item>
+        <item>פסוקים</item>
+        <item>פסוקים ומילים</item>
+    </string-array>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="range_picker_button_edit">עדכן</string>
+    <string name="range_picker_button_ok">בסדר</string>
+    <string name="range_picker_button_cancel">בטל</string>
+    <string name="range_error_title">שגיאה</string>
+    <string name="range_error_message">טווח לא תקין</string>
+
+    <string name="range_picker_title">טווח חיפוש</string>
+    <string name="range_picker_label_1">התחל ב: (כולל)</string>
+    <string name="range_picker_label_2">סיים ב: (לא כולל)</string>
+    <string name="range_picker_checkbox_chapter">לפי פרק</string>
+    <string name="range_picker_checkbox_parasha">לפי פרשה</string>
+    <string name="range_picker_spinner_end">סוף</string>
+
+    <string-array name="array_spinner_sefarim">
+        <item>בראשית</item>
+        <item>שמות</item>
+        <item>ויקרא</item>
+        <item>במדבר</item>
+        <item>דברים</item>
+        <item>סוף</item>
+    </string-array>
+    <string-array name="array_spinner_parashot" tools:keep="@array/array_spinner_parashot">
+        <item>בראשית</item>
+        <item>נח</item>
+        <item tools:ignore="Typos">לך לך</item>
+        <item>וירא</item>
+        <item>חיי שרה</item>
+        <item>תולדות</item>
+        <item>ויצא</item>
+        <item>וישלח</item>
+        <item>וישב</item>
+        <item>מקץ</item>
+        <item>ויגש</item>
+        <item>ויחי</item>
+        <item>שמות</item>
+        <item>וארא</item>
+        <item>בא</item>
+        <item>בשלח</item>
+        <item>יתרו</item>
+        <item>משפטים</item>
+        <item>תרומה</item>
+        <item>תצוה</item>
+        <item>כי תשא</item>
+        <item>ויקהל</item>
+        <item>פקודי</item>
+        <item>ויקרא</item>
+        <item>צו</item>
+        <item>שמיני</item>
+        <item>תזריע</item>
+        <item>מצורע</item>
+        <item>אחרי מות</item>
+        <item>קדושים</item>
+        <item>אמור</item>
+        <item>בהר</item>
+        <item>בחקתי</item>
+        <item>במדבר</item>
+        <item>נשא</item>
+        <item>בהעלתך</item>
+        <item>שלח לך</item>
+        <item>קרח</item>
+        <item>חקת</item>
+        <item>בלק</item>
+        <item>פנחס</item>
+        <item>מטות</item>
+        <item>מסעי</item>
+        <item>דברים</item>
+        <item>ואתחנן</item>
+        <item>עקב</item>
+        <item>ראה</item>
+        <item>שופטים</item>
+        <item>כי תצא</item>
+        <item>כי תבא</item>
+        <item>נצבים</item>
+        <item>וילך</item>
+        <item>האזינו</item>
+        <item>וזאת הברכה</item>
+        <item>סוף</item>
+    </string-array>
+    <string-array name="array_spinner_temp">
+        <item>אבג</item>
+    </string-array>
+</resources>

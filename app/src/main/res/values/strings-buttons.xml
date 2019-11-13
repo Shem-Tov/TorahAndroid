@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="button_range">טווח חיפוש</string>
+    <string name="button_search">חפש</string>
+    <string name="button_search_cancel">בטל</string>
+    <string name="button_search_canceling">מבטל..</string>
+    <string name="button_calculate">חשב</string>
+    <string name="button_report">צור דוח</string>
+    <string name="button_print">הדפסת התורה למסך</string>
+    <string name="button_store_search">שמור חיפוש לזכרון</string>
+</resources>

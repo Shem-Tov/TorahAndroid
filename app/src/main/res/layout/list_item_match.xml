@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_alignParentEnd="true"
+    android:layoutDirection="rtl"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/list_item_match_title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:padding="4dp"
+        android:minWidth="160sp"
+        tools:text="match Title" />
+    <TextView
+        android:id="@+id/list_item_match_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:minWidth="180sp"/>
+    <TextView
+        android:id="@+id/list_item_match_text_pasuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:textColor="@color/colorMain"
+        tools:text="match Pasuk"
+        android:minWidth="80sp"/>
+</LinearLayout>

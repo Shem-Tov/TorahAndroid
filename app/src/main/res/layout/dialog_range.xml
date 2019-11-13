@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:layoutDirection="rtl"
+    android:layout_alignParentEnd="true">
+
+<TableLayout
+    android:id="@+id/tableLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBG_range_dialog"
+    android:stretchColumns="3,4,5">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="@string/range_picker_label_1"
+            android:layout_column="1"
+            />
+
+        <CheckBox
+            android:id="@+id/dialog_range_cb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:layout_weight="1"
+            android:text="@string/range_picker_checkbox_chapter"
+            android:paddingBottom="10dp"
+            android:layout_column="2"
+            />
+
+        <Spinner
+            android:id="@+id/dialog_range_spinner1_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:entries="@array/array_spinner_sefarim"
+            android:layout_weight="1"
+            android:spinnerMode="dropdown"
+            android:textAlignment="center"
+            android:paddingStart="2dp"
+            android:paddingEnd="2dp"
+            android:layout_column="3"/>
+
+        <Spinner
+            android:id="@+id/dialog_range_spinner1_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:entries="@array/array_spinner_temp"
+            android:layout_weight="1"
+            android:spinnerMode="dropdown"
+            android:textAlignment="center"
+            android:paddingStart="2dp"
+            android:paddingEnd="2dp"
+            android:layout_column="4"/>
+
+        <Spinner
+            android:id="@+id/dialog_range_spinner1_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:entries="@array/array_spinner_temp"
+            android:layout_weight="1"
+            android:spinnerMode="dropdown"
+            android:textAlignment="center"
+            android:paddingStart="2dp"
+            android:paddingEnd="2dp"
+            android:layout_column="5"/>
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="@string/range_picker_label_2"
+            android:layout_column="1"/>
+
+        <CheckBox
+            android:id="@+id/dialog_range_cb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:layout_weight="1"
+            android:text="@string/range_picker_checkbox_chapter"
+            android:paddingBottom="10dp"
+            android:layout_column="2"/>
+
+        <Spinner
+            android:id="@+id/dialog_range_spinner2_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:entries="@array/array_spinner_sefarim"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:spinnerMode="dropdown"
+            android:paddingStart="2dp"
+            android:paddingEnd="2dp"
+            android:layout_column="3"/>
+
+        <Spinner
+            android:id="@+id/dialog_range_spinner2_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:entries="@array/array_spinner_temp"
+            android:layout_weight="1"
+            android:spinnerMode="dropdown"
+            android:textAlignment="center"
+            android:paddingStart="2dp"
+            android:paddingEnd="2dp"
+            android:layout_column="4"/>
+
+        <Spinner
+            android:id="@+id/dialog_range_spinner2_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:entries="@array/array_spinner_temp"
+            android:layout_weight="1"
+            android:spinnerMode="dropdown"
+            android:textAlignment="center"
+            android:paddingStart="2dp"
+            android:paddingEnd="2dp"
+            android:layout_column="5"/>
+    </TableRow>
+</TableLayout>
+</HorizontalScrollView>

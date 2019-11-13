@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><!-- "@+id/match_recycler_view" -->
+<!-- is an id, id's are created in XML (here) -->
+<!-- They are not like Strings which -->
+<!-- come from another XML-->
+<!-- These id's are then used in the JAVA files -->
+<!-- inorder to communicate with the layout control -->
+<!-- referenced by the id. -->
+<!-- In this case that control is RecyclerView -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBG_found"
+    >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/match_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>
